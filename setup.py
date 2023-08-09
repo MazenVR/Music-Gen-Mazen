@@ -9,7 +9,7 @@ from pathlib import Path
 from setuptools import setup, find_packages
 
 
-NAME = 'Music-Gen-Mazen'
+NAME = 'audiocraft'
 DESCRIPTION = 'Audio generation research library for PyTorch'
 
 URL = 'https://github.com/MazenVR/Music-Gen-Mazen'
