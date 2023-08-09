@@ -17,7 +17,7 @@ AUTHOR = 'FAIR Speech & Audio'
 EMAIL = 'defossez@meta.com, jadecopet@meta.com'
 REQUIRES_PYTHON = '>=3.8.0'
 
-for line in open('Music-Gen-Mazen/__init__.py'):
+for line in open('audiocraft/__init__.py'):
     line = line.strip()
     if '__version__' in line:
         context = {}
