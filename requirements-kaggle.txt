@@ -5,7 +5,7 @@ hydra-core>=1.1
 hydra_colorlog
 julius
 num2words
-numpy
+numpy==1.22.0
 sentencepiece
 spacy==3.5.2
 huggingface_hub
@@ -20,4 +20,4 @@ torchaudio==2.0.1
 torchmetrics
 encodec
 accelerate>=0.20.3
-tensorflow-io
+#tensorflow-io
