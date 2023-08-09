@@ -9,15 +9,15 @@ from pathlib import Path
 from setuptools import setup, find_packages
 
 
-NAME = 'audiocraft'
+NAME = 'Music-Gen-Mazen'
 DESCRIPTION = 'Audio generation research library for PyTorch'
 
-URL = 'https://github.com/facebookresearch/audiocraft'
+URL = 'https://github.com/MazenVR/Music-Gen-Mazen'
 AUTHOR = 'FAIR Speech & Audio'
 EMAIL = 'defossez@meta.com, jadecopet@meta.com'
 REQUIRES_PYTHON = '>=3.8.0'
 
-for line in open('audiocraft/__init__.py'):
+for line in open('Music-Gen-Mazen/__init__.py'):
     line = line.strip()
     if '__version__' in line:
         context = {}
